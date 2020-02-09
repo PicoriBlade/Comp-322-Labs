@@ -15,3 +15,6 @@ got vim working and learned what i needed
 got makefiles working
 
 figured out how to run the exefile in the windows command line
+
+got it reading files and converting them to binary and ascii
+
