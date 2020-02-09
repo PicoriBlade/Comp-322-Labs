@@ -21,3 +21,5 @@ got it reading files and converting them to binary and ascii
 parity checker working fine. had an issue with it not
 resetting to 0 after each loop but that is fixed now
 
+formatting is done.  now I need to work on a way get it to read 
+binary from the args if no file
