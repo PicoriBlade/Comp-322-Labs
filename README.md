@@ -23,3 +23,11 @@ resetting to 0 after each loop but that is fixed now
 
 formatting is done.  now I need to work on a way get it to read 
 binary from the args if no file
+
+2/15/2020
+finished the project
+theres a problem where the last error checker has a loop that sets some booleans
+and when the loop ends, anything that uses those booleans in the rest of the code
+is ignored. I spent over an hr trying to figure it out and Im done. Frustrating
+at least it isnt too harmful to the code as it will still work on the proper conditions.
+it just wont display a error message
