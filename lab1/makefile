@@ -34,4 +34,7 @@ clean:
 	rm -f $(EXECUTABLES) $(OBJ) *~
 
 a:
-	$(EXECUTABLES)
+	./$(EXECUTABLES)
+e:
+	vim time-4-baby-and-me.c
+
