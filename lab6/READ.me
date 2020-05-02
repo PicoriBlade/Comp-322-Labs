@@ -1,0 +1,16 @@
+# Lab 4
+# Wack a Mole!
+
+4/30/20
+I was able to do part one pretty easily. Most of it was already in the book that
+was linked to us in the lab doc.
+
+I had trouble with the execv command not picking up the mole. it just would
+return -1 as an error
+
+5/1/20
+added a getcwd() to get hte original path of the program before i move to ~/
+this helped to go back to the molebut it now just seg faults.
+
+Found out it was when I set args[0] with sprintf(arg[p], "%d", (rand%2)+1)
+after fixing this te code works just fine 
